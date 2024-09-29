@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('northern-lights.jpg'); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+}
+
+.signup-container {
+    background-color: rgba(255, 255, 255, 0.9); /* Slight transparency */
+    width: 750px;
+    padding: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    text-align: center;
+    border-radius: 8px;
+    margin-left: auto; /* This aligns the container to the right */
+    margin-right: 0px; /* Adjust this for spacing from the right edge */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 14px;
+    margin: 20px 0;
+}
+
+form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 equal columns */
+    column-gap: 10px; /* Gap between columns */
+    row-gap: 10px;    /* Gap between rows */
+    width: 100%;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 85%; /* Make sure inputs fill their grid space */
+    box-sizing: border-box; /* Ensure padding and borders are included in width */
+}
+
+button {
+    grid-column: span 1; /* Button spans across both columns */
+    background-color: #3d91ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    margin-top: 10px;
+    width: 85%;
+}
+
+button:hover {
+    background-color: #3d91ff;
+}
+
+a {
+    color: #3d91ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
